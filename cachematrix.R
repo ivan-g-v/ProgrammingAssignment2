@@ -32,7 +32,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 ## In this function I use function solve for obtain
-## the inverse of the matrix
+## the inverse of the matrix. I supose that the matrix 
+## have a inverse
 
 cacheSolve <- function(x, ...) {
         ## First I check if I have the inverse of the matrix
